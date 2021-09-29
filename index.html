@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KHAN FITNESS HUB</title>
+    <link rel="stylesheet" href="gym_site_style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <!-- <img src="gym-logo.png" alt=""> -->
+            <div>
+                <img src="gym-logo.png" alt="alt 404">
+                <p>Khan Fitness Hub</p>
+            </div>
+        </div>
+        <div class="mid">
+            <!-- mid for nav bar -->
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right box for buttons -->
+            <button class="btn">Call Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <form action="noaction.php" class="form">
+            <input type="text" name="Name" placeholder="enter your name">
+            <input type="text" name="Age" placeholder="enter your age">
+            <input type="text" name="Gender" placeholder="enter your Gender">
+            <input type="text" name="Phone_no" placeholder="enter your phone no.">
+            <input type="text" name="Email_ID" placeholder="enter your Email ID">
+            <input type="text" name="Locality" placeholder="enter your locality">
+            <div>
+                <input type="submit" class="btn" value="Enroll now!">
+                <input type="reset" class="btn" value="Reset">
+            </div>
+        </form>
+    </div>
+    <div class="select_plan">
+        <label for="plan">
+            <h3 class="btn">CHOOSE YOUR PLAN</h3>
+        </label>
+        <select name="plan" id="plan">
+            <option value="">--Select your Plan--</option>
+            <option value="planet">
+                PLANET FITNESS:
+                Best Budget Membership.
+            </option>
+            <option value="anytime">
+                ANYTIME FITNESS:
+                For Frequent Travellers.
+            </option>
+            <option value="gold">
+                GOLD FITNESS:
+                Best for Professionals.
+            </option>
+            <option value="equinox">
+                EQUINOX FITNESS:
+                Best for Luxury and Amenties.
+            </option>
+            <option value="crunch">
+                CRUNCH FITNESS:
+                Best for Group Classes.
+            </option>
+        </select>
+    </div>
+</body>
+
+</html>
